@@ -65,7 +65,7 @@ class MyFrame(wx.Frame):
         # 创建垂直方向的盒子布局管理器对象 vbox
         vbox = wx.BoxSizer(wx.VERTICAL)
         # 添加静态文本到 vbox 布局管理器
-        vbox.Add(self.statictext, proportion=1,
+        vbox.Add(self.statictext, proportion=2,
                  flag=wx.ALIGN_CENTER_HORIZONTAL | wx.FIXED_MINSIZE | wx.TOP, border=30)
         # 添加 hbox 到 vbox 布局管理器
         vbox.Add(hbox, proportion=1, flag=wx.CENTER)
